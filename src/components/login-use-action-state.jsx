@@ -14,7 +14,7 @@ const LoginReact19 = () => {
       const response = await loginUser(username, password);
       return { error: null, data: response.data };
     } catch (error) {
-      return { ...previousState, error: error.error };
+      return { data: null, error: error.error };
     }
   }
 
