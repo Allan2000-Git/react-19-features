@@ -1,16 +1,10 @@
 import "./App.css";
-import LoginFormAction from "./components/login-form-action";
-import LoginOld from "./components/login-old";
-import LoginReact19 from "./components/login-use-action-state";
+import TodoList from "./components/todo";
 
 function App() {
   return (
     <main>
-      <LoginOld />
-      <hr />
-      <LoginFormAction />
-      <hr />
-      <LoginReact19 />
+      <TodoList />
     </main>
   );
 }
