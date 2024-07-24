@@ -1,10 +1,15 @@
+import { Suspense } from "react";
 import "./App.css";
-import TodoList from "./components/todo";
+import PostsByUse from "./components/data-fetching-by-use";
 
 function App() {
   return (
     <main>
-      <TodoList />
+      <Suspense fallback={<p>Loading...</p>}>
+      <div>
+        <PostsByUse />
+      </div>
+    </Suspense>
     </main>
   );
 }
