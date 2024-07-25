@@ -3,3 +3,4 @@
 - useFormStatus: Avoids usage of context api. Gives us pending state of a form without having to pass it as a prop to its child elements because this hook checks nearest parent form.
 - useOptimistic
 - use(): way of handling data fetching
+- Eliminates the use of forwardRef() when we use to take ref as a prop
