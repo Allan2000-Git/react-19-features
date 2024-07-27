@@ -4,3 +4,7 @@
 - useOptimistic
 - use(): way of handling data fetching
 - Eliminates the use of forwardRef() when we use to take ref as a prop
+
+# React Optimizations
+- Reduce DOM size: use react-window (https://react-window.vercel.app/#/examples/list/fixed-size)
+- Lazy loading of images: https://codesandbox.io/p/sandbox/lazyloadimage-final-1cdzl?
